@@ -1,0 +1,198 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.hero{
+    background-image: 
+    url(https://upload.wikimedia.org/wikipedia/commons/e/ed/Sham_Shui_Po_Aerial_night_view_2017.jpg);
+    background-position: 10px bottom;
+    width: auto;
+    height: 350px;
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+    padding-top: 220px;
+    transition:  1s ease-out 200ms;
+    
+}
+
+.hero:hover{
+    background-image: 
+    url(https://media.timeout.com/images/105694264/image.jpg);
+}
+
+#hero-subject{
+    width: 400px;
+    background: #1D3557;
+    border-radius: 10px;
+    margin: 16px 150px;
+    padding: 5px 0px 5px 0px;
+    text-shadow: black 5px 5px;
+    margin: 0 auto
+    
+    
+}
+
+#hero-dis{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    background: #457B9D;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin: 30px auto;
+    padding: 5px 10px 5px 10px;
+    width: 650px;
+}
+
+#hero-subject{
+    
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.activities{
+    display: flex;
+    align-items: flex-start  ;
+    justify-content: space-around;
+    width: auto;
+    height: 330px;
+    background-color: antiquewhite;
+    padding-top: 20px;
+}
+
+.activities-icon{
+    border-radius: 50px;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s ease-out 50ms;
+}
+
+.activities-icon:hover{
+    border-radius: 10px;
+    object-fit: cover;
+    width: 200px;
+    height: 150px;
+}
+
+.activities-iconsub{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #1D3557;
+}
+
+.activities-p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    width: 200px;
+
+    color: #1D3557;
+}
+
+.guide{
+    width: 520px;
+    height: 294px;
+    left: 160px;
+    top: 50px;
+    margin: 50px auto;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start ;
+    justify-content:space-evenly ;
+}
+
+#guide-icon{
+    border-radius: 30px;
+    padding: 23px; 
+    width: 160px;
+    height: 248.67px;
+    object-fit: cover;
+    transition: width 0.5s ease-out 50ms;
+}
+
+#guide-icon:hover{
+    border-radius: 30px;
+    padding-left: 23px; 
+    width: 280px;
+    height: 248.67px;
+    object-fit: cover;
+    
+}
+
+.guide-text{
+    padding-right: 30px;
+}
+
+.guide-sub{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+padding-top: 20px;
+
+
+color: #1D3557;
+}
+
+.guide-p{
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 2px;
+    color: #1D3557;
+    display: inline-block;
+    width: 200px;
+}
+
+.guide-sign{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #1D3557;
+}
+
